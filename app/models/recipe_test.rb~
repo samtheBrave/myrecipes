@@ -1,0 +1,15 @@
+require 'test_helper' 
+
+class RecipeTest < ActiveSupprt::TestCase
+
+def setup 
+@recipe = Recipe.new(name:" chicken parm", summary: "this is a poor app",
+			description: "heat oil, oil oinoins, add tomato sauce, cook for 20");
+
+end 
+
+ 	test "recipe should be valid" do
+
+end
+
+end

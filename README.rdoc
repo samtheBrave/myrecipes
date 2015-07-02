@@ -21,7 +21,28 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* validations
+  Recipes:
+    name: string
+    summary: text
+    description: text
+    
+    - name must be present
+    - name must be between 5 and 100 characters
+    - summary must be present
+    - summary must be between 20 and 200 characters
+    - chef_id must be present
+    
+  Chefs:
+    name: string
+    email: string
+    
+    - name must be present
+    - name must be between 5 and 100 characters
+    - email must be present
+    - email must be valid email
+    - email unique
+    
 
 
 Please feel free to use a different markup language if you do not plan to run

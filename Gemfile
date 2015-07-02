@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem "rspec-rails", "~> 2.5"
 
 gem 'rails', '4.1.6'
 gem 'bootstrap-sass', '~> 3.3.3'

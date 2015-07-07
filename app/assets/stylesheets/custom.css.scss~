@@ -95,7 +95,7 @@ input{
 }
 
 span.picture{
-  margin-top:10px;
+  margin-top:8px;
   
   input{
     border: 0;
